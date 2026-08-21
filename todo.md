@@ -17,8 +17,8 @@
 - [x] Criar/publicar repositório privado no GitHub
 - [x] Criar checkpoint final para habilitar a publicação pelo painel
 - [x] Simplificar README para conter apenas link do site e link de download do APK
-- [ ] Publicar o site correto no GitHub Pages
+- [x] Publicar o site correto no GitHub Pages
 - [x] Corrigir o link do site no README
 - [x] Preparar botão e endereço de download do APK via GitHub Release
 - [x] Tornar o repositório público com autorização do usuário
-- [ ] Validar o site no GitHub Pages após a mudança de visibilidade
+- [x] Validar o site no GitHub Pages após a mudança de visibilidade
