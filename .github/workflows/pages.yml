@@ -43,6 +43,8 @@ jobs:
           find dist -type f -name '*.html' -exec sed -i "s#url('/#url('/financas-android/#g" {} +
       - name: Configurar Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Carregar artefato
         uses: actions/upload-pages-artifact@v3
         with:
