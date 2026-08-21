@@ -13,6 +13,6 @@
 - [x] Criar identidade visual e ícone exclusivo do FinAI
 - [x] Atualizar app.config.ts com nome e identidade do aplicativo
 - [x] Validar TypeScript, lint e testes
-- [ ] Preparar instruções de instalação no Android e da versão PWA
+- [x] Preparar instruções de instalação no Android e da versão PWA
 - [ ] Criar/publicar repositório privado no GitHub
 - [ ] Criar checkpoint final para habilitar a publicação pelo painel
