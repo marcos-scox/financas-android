@@ -23,3 +23,8 @@
 - [x] Tornar o repositório público com autorização do usuário
 - [x] Validar o site no GitHub Pages após a mudança de visibilidade
 - [x] Corrigir o link 404 do APK e apontar para a página de Releases até existir um arquivo finai.apk
+- [x] Substituir financas-local.html pelo arquivo reenviado
+- [x] Disponibilizar financas-local.html para download no GitHub
+- [x] Atualizar o GitHub Pages com o novo arquivo
+- [x] Corrigir o GitHub Pages para usar exatamente o site original reenviado pelo usuário
+- [x] Validar que o layout original está no endereço público
