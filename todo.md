@@ -22,4 +22,4 @@
 - [x] Preparar botão e endereço de download do APK via GitHub Release
 - [x] Tornar o repositório público com autorização do usuário
 - [x] Validar o site no GitHub Pages após a mudança de visibilidade
-- [ ] Corrigir o link 404 do APK e apontar para a página de Releases até existir um arquivo finai.apk
+- [x] Corrigir o link 404 do APK e apontar para a página de Releases até existir um arquivo finai.apk
