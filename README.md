@@ -1,7 +1,7 @@
 # FinAI — Finanças pessoais
 
-[**Abrir o site**](https://8081-i7l904bj2tgyv2uc93tux-a9eff160.us5.manus.computer)
+[**Abrir o site no GitHub Pages**](https://marcos-scox.github.io/financas-android/)
 
 [**Baixar o APK Android**](https://github.com/marcos-scox/financas-android/releases/latest/download/finai.apk)
 
-> O link do APK ficará disponível após a geração do APK pelo botão **Publish** no painel do projeto.
+O link do APK será válido assim que o arquivo `finai.apk` for anexado à Release mais recente do repositório.

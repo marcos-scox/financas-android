@@ -1,0 +1,55 @@
+name: Publicar FinAI no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Configurar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9.12.0
+      - name: Instalar dependências
+        run: pnpm install --frozen-lockfile
+      - name: Gerar site estático
+        run: pnpm exec expo export --platform web --output-dir dist
+      - name: Ajustar caminhos para o GitHub Pages
+        run: |
+          find dist -type f -name '*.html' -exec sed -i 's#="/#="/financas-android/#g' {} +
+          find dist -type f -name '*.html' -exec sed -i "s#url('/#url('/financas-android/#g" {} +
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Carregar artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
