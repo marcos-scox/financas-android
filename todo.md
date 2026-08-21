@@ -14,5 +14,5 @@
 - [x] Atualizar app.config.ts com nome e identidade do aplicativo
 - [x] Validar TypeScript, lint e testes
 - [x] Preparar instruções de instalação no Android e da versão PWA
-- [ ] Criar/publicar repositório privado no GitHub
-- [ ] Criar checkpoint final para habilitar a publicação pelo painel
+- [x] Criar/publicar repositório privado no GitHub
+- [x] Criar checkpoint final para habilitar a publicação pelo painel
