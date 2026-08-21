@@ -16,12 +16,13 @@ concurrency:
 
 env:
   EXPO_NO_METRO_WORKSPACE_ROOT: "1"
-  EXPO_PACKAGER_CACHE_DIR: ${{ runner.temp }}/expo-cache
-  METRO_CACHE_DIR: ${{ runner.temp }}/metro-cache
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      EXPO_PACKAGER_CACHE_DIR: ${{ runner.temp }}/expo-cache
+      METRO_CACHE_DIR: ${{ runner.temp }}/metro-cache
     steps:
       - name: Baixar o código
         uses: actions/checkout@v4
