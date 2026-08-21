@@ -20,3 +20,5 @@
 - [ ] Publicar o site correto no GitHub Pages
 - [ ] Corrigir o link do site no README
 - [ ] Preparar botão e endereço de download do APK via GitHub Release
+- [x] Tornar o repositório público com autorização do usuário
+- [ ] Validar o site no GitHub Pages após a mudança de visibilidade
