@@ -31,7 +31,7 @@ jobs:
       - name: Instalar dependências
         run: pnpm install --frozen-lockfile
       - name: Gerar site estático
-        run: pnpm exec expo export --platform web --output-dir dist
+        run: pnpm exec expo export --platform web --output-dir dist --clear
       - name: Ajustar caminhos para o GitHub Pages
         run: |
           find dist -type f -name '*.html' -exec sed -i 's#="/#="/financas-android/#g' {} +
