@@ -16,3 +16,4 @@
 - [x] Preparar instruções de instalação no Android e da versão PWA
 - [x] Criar/publicar repositório privado no GitHub
 - [x] Criar checkpoint final para habilitar a publicação pelo painel
+- [x] Simplificar README para conter apenas link do site e link de download do APK
