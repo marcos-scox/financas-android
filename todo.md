@@ -18,7 +18,7 @@
 - [x] Criar checkpoint final para habilitar a publicação pelo painel
 - [x] Simplificar README para conter apenas link do site e link de download do APK
 - [ ] Publicar o site correto no GitHub Pages
-- [ ] Corrigir o link do site no README
-- [ ] Preparar botão e endereço de download do APK via GitHub Release
+- [x] Corrigir o link do site no README
+- [x] Preparar botão e endereço de download do APK via GitHub Release
 - [x] Tornar o repositório público com autorização do usuário
 - [ ] Validar o site no GitHub Pages após a mudança de visibilidade
